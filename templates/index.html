@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD&D 1e Dungeon Crawler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-header">
+            <h1>AD&D 1e Dungeon Crawler</h1>
+            <div id="game-controls">
+                <button id="new-game">New Game</button>
+                <button id="save-game">Save Game</button>
+                <button id="load-game">Load Game</button>
+            </div>
+        </div>
+
+        <div id="game-main">
+            <div id="dungeon-view">
+                <div id="map-container">
+                    <pre id="ascii-map"></pre>
+                </div>
+                <div id="message-log">
+                    <h3>Message Log</h3>
+                    <div id="messages"></div>
+                </div>
+            </div>
+
+            <div id="character-sheets">
+                <div class="character-sheet" id="char1">
+                    <h3>Character 1</h3>
+                    <div class="char-tabs">
+                        <button class="tab-button active" data-tab="stats1">Stats</button>
+                        <button class="tab-button" data-tab="inventory1">Inventory</button>
+                        <button class="tab-button" data-tab="skills1">Skills/Spells</button>
+                    </div>
+                    <div class="tab-content active" id="stats1">
+                        <div class="char-stats"></div>
+                    </div>
+                    <div class="tab-content" id="inventory1">
+                        <div class="char-inventory"></div>
+                    </div>
+                    <div class="tab-content" id="skills1">
+                        <div class="char-skills"></div>
+                    </div>
+                </div>
+                <div class="character-sheet" id="char2">
+                    <h3>Character 2</h3>
+                    <div class="char-tabs">
+                        <button class="tab-button active" data-tab="stats2">Stats</button>
+                        <button class="tab-button" data-tab="inventory2">Inventory</button>
+                        <button class="tab-button" data-tab="skills2">Skills/Spells</button>
+                    </div>
+                    <div class="tab-content active" id="stats2">
+                        <div class="char-stats"></div>
+                    </div>
+                    <div class="tab-content" id="inventory2">
+                        <div class="char-inventory"></div>
+                    </div>
+                    <div class="tab-content" id="skills2">
+                        <div class="char-skills"></div>
+                    </div>
+                </div>
+                <div class="character-sheet" id="char3">
+                    <h3>Character 3</h3>
+                    <div class="char-tabs">
+                        <button class="tab-button active" data-tab="stats3">Stats</button>
+                        <button class="tab-button" data-tab="inventory3">Inventory</button>
+                        <button class="tab-button" data-tab="skills3">Skills/Spells</button>
+                    </div>
+                    <div class="tab-content active" id="stats3">
+                        <div class="char-stats"></div>
+                    </div>
+                    <div class="tab-content" id="inventory3">
+                        <div class="char-inventory"></div>
+                    </div>
+                    <div class="tab-content" id="skills3">
+                        <div class="char-skills"></div>
+                    </div>
+                </div>
+                <div class="character-sheet" id="char4">
+                    <h3>Character 4</h3>
+                    <div class="char-tabs">
+                        <button class="tab-button active" data-tab="stats4">Stats</button>
+                        <button class="tab-button" data-tab="inventory4">Inventory</button>
+                        <button class="tab-button" data-tab="skills4">Skills/Spells</button>
+                    </div>
+                    <div class="tab-content active" id="stats4">
+                        <div class="char-stats"></div>
+                    </div>
+                    <div class="tab-content" id="inventory4">
+                        <div class="char-inventory"></div>
+                    </div>
+                    <div class="tab-content" id="skills4">
+                        <div class="char-skills"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="combat-interface" class="hidden">
+            <h3>Combat</h3>
+            <div id="combat-log"></div>
+            <div id="combat-actions">
+                <button class="combat-action">Attack</button>
+                <button class="combat-action">Cast Spell</button>
+                <button class="combat-action">Use Item</button>
+                <button class="combat-action">Flee</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="character-creation" class="modal hidden">
+        <div class="modal-content">
+            <h2>Create Character <span id="char-number">1</span></h2>
+            <div id="char-navigation">
+                <button type="button" id="prev-char" disabled>Previous</button>
+                <button type="button" id="next-char" disabled>Next</button>
+            </div>
+            <form id="char-creation-form">
+                <div class="form-group">
+                    <label for="char-name">Name:</label>
+                    <input type="text" id="char-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="char-race">Race:</label>
+                    <select id="char-race" required>
+                        <option value="Human">Human</option>
+                        <option value="Elf">Elf</option>
+                        <option value="Dwarf">Dwarf</option>
+                        <option value="Halfling">Halfling</option>
+                        <option value="Gnome">Gnome</option>
+                        <option value="Half-Orc">Half-Orc</option>
+                        <option value="Half-Elf">Half-Elf</option>
+                        <option value="Lizardfolk">Lizardfolk</option>
+                        <option value="Tabaxi">Tabaxi</option>
+                        <option value="Goblin">Goblin</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="char-class">Class:</label>
+                    <select id="char-class" required>
+                        <option value="Fighter">Fighter</option>
+                        <option value="Magic-User">Magic-User</option>
+                        <option value="Cleric">Cleric</option>
+                        <option value="Thief">Thief</option>
+                        <option value="Ranger">Ranger</option>
+                        <option value="Paladin">Paladin</option>
+                        <option value="Druid">Druid</option>
+                        <option value="Illusionist">Illusionist</option>
+                        <option value="Bard">Bard</option>
+                    </select>
+                </div>
+                <div class="ability-scores">
+                    <div class="ability-controls">
+                        <button type="button" id="reroll-abilities">Reroll Abilities</button>
+                        <div class="points-remaining">
+                            Ability Points Left: <span id="points-left">5</span>
+                        </div>
+                    </div>
+                    <div class="ability-row">
+                        <div class="form-group">
+                            <label for="str">Strength:</label>
+                            <div class="ability-input">
+                                <input type="number" id="str" min="3" max="18" required readonly>
+                                <button type="button" class="ability-increase">+</button>
+                                <button type="button" class="ability-decrease">-</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="int">Intelligence:</label>
+                            <div class="ability-input">
+                                <input type="number" id="int" min="3" max="18" required readonly>
+                                <button type="button" class="ability-increase">+</button>
+                                <button type="button" class="ability-decrease">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ability-row">
+                        <div class="form-group">
+                            <label for="wis">Wisdom:</label>
+                            <div class="ability-input">
+                                <input type="number" id="wis" min="3" max="18" required readonly>
+                                <button type="button" class="ability-increase">+</button>
+                                <button type="button" class="ability-decrease">-</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="dex">Dexterity:</label>
+                            <div class="ability-input">
+                                <input type="number" id="dex" min="3" max="18" required readonly>
+                                <button type="button" class="ability-increase">+</button>
+                                <button type="button" class="ability-decrease">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ability-row">
+                        <div class="form-group">
+                            <label for="con">Constitution:</label>
+                            <div class="ability-input">
+                                <input type="number" id="con" min="3" max="18" required readonly>
+                                <button type="button" class="ability-increase">+</button>
+                                <button type="button" class="ability-decrease">-</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cha">Charisma:</label>
+                            <div class="ability-input">
+                                <input type="number" id="cha" min="3" max="18" required readonly>
+                                <button type="button" class="ability-increase">+</button>
+                                <button type="button" class="ability-decrease">-</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Character</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html> 

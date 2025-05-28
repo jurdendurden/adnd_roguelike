@@ -1,0 +1,1882 @@
+{
+    "magic_user_spells": {
+        "first_level": [
+            {
+                "name": "Affect Normal Fires",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to control normal fires, making them larger, smaller, or moving them."
+            },
+            {
+                "name": "Burning Hands",
+                "range": "0",
+                "duration": "Instantaneous",
+                "area_of_effect": "1\" wide, 3\" long cone",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "Half",
+                "description": "This spell creates a cone of flame that causes 1-3 points of damage per level of the caster."
+            },
+            {
+                "name": "Charm Person",
+                "range": "12\"",
+                "duration": "Special",
+                "area_of_effect": "1 person",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell makes a person friendly to the caster and willing to serve them."
+            },
+            {
+                "name": "Comprehend Languages",
+                "range": "Touch",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to understand any spoken language."
+            },
+            {
+                "name": "Detect Magic",
+                "range": "6\"",
+                "duration": "2 rounds",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects magical auras in creatures or objects."
+            },
+            {
+                "name": "Enlarge",
+                "range": "6\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell doubles the size of a creature, increasing its strength and damage."
+            },
+            {
+                "name": "Erase",
+                "range": "1\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 page or object",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell removes writing or markings from a page or object."
+            },
+            {
+                "name": "Feather Fall",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature/level",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell allows creatures to fall slowly and safely."
+            },
+            {
+                "name": "Find Familiar",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons a familiar to serve the caster."
+            },
+            {
+                "name": "Floating Disc",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "One disc",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a floating disc that can carry up to 500 pounds."
+            },
+            {
+                "name": "Friends",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the caster more charismatic and persuasive."
+            },
+            {
+                "name": "Hold Portal",
+                "range": "1\"",
+                "duration": "2-12 rounds",
+                "area_of_effect": "One door",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell magically holds a door shut."
+            },
+            {
+                "name": "Identify",
+                "range": "Touch",
+                "duration": "1 turn",
+                "area_of_effect": "One object",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell identifies the properties of a magical item."
+            },
+            {
+                "name": "Jump",
+                "range": "Touch",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell triples the recipient's jumping distance."
+            },
+            {
+                "name": "Light",
+                "range": "12\"",
+                "duration": "6 turns + 1 turn/level",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 segment",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a light source equivalent to a torch."
+            },
+            {
+                "name": "Magic Missile",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "1-4 missiles",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates 1-4 magical missiles that automatically hit their target for 1-4 points of damage each."
+            },
+            {
+                "name": "Message",
+                "range": "12\"",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to whisper to a creature within range."
+            },
+            {
+                "name": "Mount",
+                "range": "6\"",
+                "duration": "6 turns + 1 turn/level",
+                "area_of_effect": "One horse",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a temporary horse to serve the caster."
+            },
+            {
+                "name": "Nystul's Magic Aura",
+                "range": "Touch",
+                "duration": "1 day/level",
+                "area_of_effect": "One object",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes an object appear magical or non-magical to detection spells."
+            },
+            {
+                "name": "Protection from Evil",
+                "range": "Touch",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient +1 to saving throws and AC against evil creatures."
+            },
+            {
+                "name": "Push",
+                "range": "6\"",
+                "duration": "1 round",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "Neg.",
+                "description": "This spell pushes a creature away from the caster."
+            },
+            {
+                "name": "Read Magic",
+                "range": "0",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to read magical writing."
+            },
+            {
+                "name": "Shield",
+                "range": "0",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates a magical shield that gives the caster AC 2 and blocks magic missiles."
+            },
+            {
+                "name": "Shocking Grasp",
+                "range": "Touch",
+                "duration": "Instantaneous",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to deliver an electrical shock that causes 1-8 points of damage per level."
+            },
+            {
+                "name": "Sleep",
+                "range": "3\"",
+                "duration": "4-16 rounds",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell puts 2-16 hit dice of creatures to sleep."
+            },
+            {
+                "name": "Spider Climb",
+                "range": "Touch",
+                "duration": "1 round/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the recipient to climb walls and ceilings like a spider."
+            },
+            {
+                "name": "Tenser's Floating Disc",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "One disc",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a floating disc that can carry up to 500 pounds."
+            },
+            {
+                "name": "Unseen Servant",
+                "range": "0",
+                "duration": "1 hour/level",
+                "area_of_effect": "One servant",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an invisible force that can perform simple tasks."
+            },
+            {
+                "name": "Ventriloquism",
+                "range": "6\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1 voice",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to throw their voice to any point within range."
+            }
+        ],
+        "second_level": [
+            {
+                "name": "Alter Self",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to alter their appearance, including height, weight, and facial features."
+            },
+            {
+                "name": "Bind",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell restrains a creature with magical bonds."
+            },
+            {
+                "name": "Continual Light",
+                "range": "12\"",
+                "duration": "Permanent",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a permanent light source equivalent to a torch."
+            },
+            {
+                "name": "Darkness 15' Radius",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "15' radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an area of magical darkness that cannot be illuminated by normal light."
+            },
+            {
+                "name": "Detect Evil",
+                "range": "6\"",
+                "duration": "2 rounds",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects evil creatures and objects in the area of effect."
+            },
+            {
+                "name": "Detect Invisibility",
+                "range": "6\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1\" path",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to see invisible creatures and objects."
+            },
+            {
+                "name": "ESP",
+                "range": "12\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell allows the caster to read the surface thoughts of a creature."
+            },
+            {
+                "name": "Fool's Gold",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes non-precious metal appear to be gold."
+            },
+            {
+                "name": "Forget",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature to forget the last 5 rounds of activity."
+            },
+            {
+                "name": "Invisibility",
+                "range": "Touch",
+                "duration": "Permanent until broken",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient invisible until they attack or cast a spell."
+            },
+            {
+                "name": "Knock",
+                "range": "1\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "One door or lock",
+                "components": "V",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell opens a locked or magically held door."
+            },
+            {
+                "name": "Levitate",
+                "range": "6\"",
+                "duration": "6 rounds/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell allows the recipient to float up and down at will."
+            },
+            {
+                "name": "Locate Object",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 object",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell locates a known object within range."
+            },
+            {
+                "name": "Magic Mouth",
+                "range": "1\"",
+                "duration": "Permanent until triggered",
+                "area_of_effect": "One object",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a magical mouth on an object that speaks when triggered."
+            },
+            {
+                "name": "Mirror Image",
+                "range": "0",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates 1-4 mirror images of the caster that move with them."
+            },
+            {
+                "name": "Phantasmal Force",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an illusion that can be seen, heard, and felt."
+            },
+            {
+                "name": "Pyrotechnics",
+                "range": "6\"",
+                "duration": "1 round",
+                "area_of_effect": "1 fire source",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates a burst of fireworks from a fire source, potentially blinding creatures."
+            },
+            {
+                "name": "Ray of Enfeeblement",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "Neg.",
+                "description": "This spell reduces the target's strength by 2-5 points."
+            },
+            {
+                "name": "Rope Trick",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "One rope",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes a rope climb into the air and create an extradimensional space."
+            },
+            {
+                "name": "Scare",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature to flee in panic."
+            },
+            {
+                "name": "Stinking Cloud",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a cloud of nauseating gas that may cause creatures to vomit."
+            },
+            {
+                "name": "Strength",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell increases the recipient's strength by 3-18 points."
+            },
+            {
+                "name": "Web",
+                "range": "6\"",
+                "duration": "2-8 rounds",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a mass of sticky webs that entangle creatures."
+            },
+            {
+                "name": "Wizard Lock",
+                "range": "1\"",
+                "duration": "Permanent",
+                "area_of_effect": "One door",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell magically locks a door, preventing it from being opened without a knock spell."
+            }
+        ],
+        "third_level": [
+            {
+                "name": "Clairvoyance",
+                "range": "12\"",
+                "duration": "1 round/level",
+                "area_of_effect": "Special",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to see and hear through a magical sensor at a distance."
+            },
+            {
+                "name": "Dispel Magic",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "3\" cube",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cancels magical spells and effects within its area of effect."
+            },
+            {
+                "name": "Fireball",
+                "range": "10\" + 1\"/level",
+                "duration": "Instantaneous",
+                "area_of_effect": "2\" radius sphere",
+                "components": "V,S,M",
+                "casting_time": "3 segments",
+                "saving_throw": "Half",
+                "description": "This spell creates an explosion of flame that causes 1-6 points of damage per level of the caster."
+            },
+            {
+                "name": "Fly",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the recipient to fly at a speed of 12\" per round."
+            },
+            {
+                "name": "Haste",
+                "range": "6\"",
+                "duration": "3 rounds + 1 round/level",
+                "area_of_effect": "1 creature/level",
+                "components": "V,S,M",
+                "casting_time": "3 segments",
+                "saving_throw": "None",
+                "description": "This spell doubles the movement rate and attack rate of affected creatures."
+            },
+            {
+                "name": "Hold Person",
+                "range": "6\"",
+                "duration": "2-8 rounds",
+                "area_of_effect": "1-4 persons",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell paralyzes humanoid creatures, preventing them from moving or acting."
+            },
+            {
+                "name": "Infravision",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the recipient to see in darkness by detecting heat patterns."
+            },
+            {
+                "name": "Invisibility 10' Radius",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "10' radius around creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes all creatures within 10' of the recipient invisible."
+            },
+            {
+                "name": "Lightning Bolt",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "6\" long, 1\" wide",
+                "components": "V,S,M",
+                "casting_time": "3 segments",
+                "saving_throw": "Half",
+                "description": "This spell creates a bolt of lightning that causes 1-6 points of damage per level of the caster."
+            },
+            {
+                "name": "Protection from Evil 10' Radius",
+                "range": "Touch",
+                "duration": "2 rounds/level",
+                "area_of_effect": "10' radius around creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a protective barrier against evil creatures for all within 10' of the recipient."
+            },
+            {
+                "name": "Protection from Normal Missiles",
+                "range": "Touch",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient immune to non-magical missiles."
+            },
+            {
+                "name": "Water Breathing",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the recipient to breathe underwater."
+            }
+        ],
+        "fourth_level": [
+            {
+                "name": "Charm Monster",
+                "range": "12\"",
+                "duration": "Special",
+                "area_of_effect": "1 monster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell makes a monster friendly to the caster and willing to serve them."
+            },
+            {
+                "name": "Confusion",
+                "range": "12\"",
+                "duration": "2-5 rounds",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes creatures to behave randomly, attacking allies or wandering aimlessly."
+            },
+            {
+                "name": "Dimension Door",
+                "range": "0",
+                "duration": "Instantaneous",
+                "area_of_effect": "Caster",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to teleport themselves and up to 500 pounds of equipment to a known location."
+            },
+            {
+                "name": "Enervation",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell drains 1-4 levels from the target creature."
+            },
+            {
+                "name": "Extension I",
+                "range": "Touch",
+                "duration": "Special",
+                "area_of_effect": "Spell affected",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell doubles the duration of another spell."
+            },
+            {
+                "name": "Fear",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes creatures to flee in panic."
+            },
+            {
+                "name": "Fire Shield",
+                "range": "0",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a shield of flame that damages attackers and provides protection from fire or cold."
+            },
+            {
+                "name": "Fumble",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature to drop whatever it is holding."
+            },
+            {
+                "name": "Hallucinatory Terrain",
+                "range": "24\"",
+                "duration": "Permanent until touched",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell makes one type of terrain appear as another type."
+            },
+            {
+                "name": "Ice Storm",
+                "range": "8\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "2\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell creates a storm of ice that causes 3-18 points of damage."
+            },
+            {
+                "name": "Massmorph",
+                "range": "6\"",
+                "duration": "6 turns",
+                "area_of_effect": "100 square feet/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes a group of creatures appear as trees or other natural features."
+            },
+            {
+                "name": "Minor Globe of Invulnerability",
+                "range": "0",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a barrier that blocks 1st, 2nd, and 3rd level spells."
+            },
+            {
+                "name": "Polymorph Others",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell transforms a creature into another form."
+            },
+            {
+                "name": "Polymorph Self",
+                "range": "0",
+                "duration": "2 turns/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to transform themselves into another form."
+            },
+            {
+                "name": "Remove Curse",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature or object touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell removes curses from creatures or objects."
+            },
+            {
+                "name": "Wall of Fire",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "2\" high, 2\" long",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a wall of flame that causes 2-8 points of damage to creatures passing through it."
+            },
+            {
+                "name": "Wall of Ice",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "2\" high, 2\" long",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a wall of ice that blocks movement and causes 2-8 points of damage to creatures passing through it."
+            },
+            {
+                "name": "Wizard Eye",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "Special",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an invisible floating eye that the caster can see through."
+            }
+        ],
+        "fifth_level": [
+            {
+                "name": "Advanced Illusion",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an illusion that can be seen, heard, and felt, and can cause real damage if believed to be real."
+            },
+            {
+                "name": "Animate Dead",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1-6 skeletons or zombies",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell animates dead bodies to serve the caster as undead servants."
+            },
+            {
+                "name": "Bigby's Interposing Hand",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One hand",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates a large magical hand that interposes itself between the caster and an opponent."
+            },
+            {
+                "name": "Cloudkill",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" cube",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a poisonous cloud that kills creatures with 4 or fewer hit dice and damages others."
+            },
+            {
+                "name": "Conjure Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "One elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons an elemental creature to serve the caster."
+            },
+            {
+                "name": "Contact Other Plane",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to contact extraplanar entities for information."
+            },
+            {
+                "name": "Distance Distortion",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "6\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes distances appear longer or shorter than they actually are."
+            },
+            {
+                "name": "Extension II",
+                "range": "Touch",
+                "duration": "Special",
+                "area_of_effect": "Spell affected",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell triples the duration of another spell."
+            },
+            {
+                "name": "Fabricate",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell transforms raw materials into finished items."
+            },
+            {
+                "name": "Feeblemind",
+                "range": "12\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell reduces the target's intelligence to 1, making them unable to cast spells or use magic items."
+            },
+            {
+                "name": "Hold Monster",
+                "range": "6\"",
+                "duration": "2-8 rounds",
+                "area_of_effect": "1-4 monsters",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell paralyzes monsters, preventing them from moving or acting."
+            },
+            {
+                "name": "Magic Jar",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "Special",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell allows the caster to project their soul into a gem or similar object and attempt to possess other creatures."
+            },
+            {
+                "name": "Passwall",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 passage",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a passage through wood or stone walls."
+            },
+            {
+                "name": "Telekinesis",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "Up to 100 pounds/level",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to move objects with their mind."
+            },
+            {
+                "name": "Teleport",
+                "range": "0",
+                "duration": "Instantaneous",
+                "area_of_effect": "Caster and up to 1000 pounds",
+                "components": "V",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell instantly transports the caster and their equipment to a known location."
+            },
+            {
+                "name": "Transmute Rock to Mud",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms rock into mud, potentially trapping creatures within it."
+            },
+            {
+                "name": "Wall of Force",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "2\" high, 2\" long",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an invisible wall of force that cannot be passed by physical or magical means."
+            },
+            {
+                "name": "Wall of Iron",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "2\" high, 2\" long",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a wall of iron that blocks movement and can be used as a bridge."
+            },
+            {
+                "name": "Wall of Stone",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "2\" high, 2\" long",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a wall of stone that blocks movement and can be used as a bridge."
+            }
+        ],
+        "sixth_level": [
+            {
+                "name": "Anti-Magic Shell",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "1\" radius around caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a barrier that prevents all magical effects from passing through it."
+            },
+            {
+                "name": "Bigby's Forceful Hand",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One hand",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates a large magical hand that can push creatures away from the caster."
+            },
+            {
+                "name": "Chain Lightning",
+                "range": "12\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "1 primary target, plus 1 target/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell creates a bolt of lightning that jumps from target to target, causing 1-6 points of damage per level to each."
+            },
+            {
+                "name": "Conjure Animals",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-8 animals",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons animals to serve the caster."
+            },
+            {
+                "name": "Control Weather",
+                "range": "0",
+                "duration": "4-48 hours",
+                "area_of_effect": "4 mile radius",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to control the weather in a large area."
+            },
+            {
+                "name": "Death Spell",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "3\" cube",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell instantly kills creatures with 7 or fewer hit dice."
+            },
+            {
+                "name": "Disintegrate",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "1 creature or object",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature or object to disintegrate into dust."
+            },
+            {
+                "name": "Enchant an Item",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Item touched",
+                "components": "V,S,M",
+                "casting_time": "1 day",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to create a magical item."
+            },
+            {
+                "name": "Extension III",
+                "range": "Touch",
+                "duration": "Special",
+                "area_of_effect": "Spell affected",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell quadruples the duration of another spell."
+            },
+            {
+                "name": "Geas",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell places a magical command on a creature to carry out some service."
+            },
+            {
+                "name": "Globe of Invulnerability",
+                "range": "0",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a barrier that blocks 1st through 4th level spells."
+            },
+            {
+                "name": "Guards and Wards",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "200 square feet/level",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates various magical wards and guards to protect an area."
+            },
+            {
+                "name": "Invisible Stalker",
+                "range": "6\"",
+                "duration": "1 day/level",
+                "area_of_effect": "One stalker",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons an invisible creature to serve the caster."
+            },
+            {
+                "name": "Legend Lore",
+                "range": "0",
+                "duration": "1 turn",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 day",
+                "saving_throw": "None",
+                "description": "This spell provides the caster with information about a legendary person, place, or object."
+            },
+            {
+                "name": "Mass Suggestion",
+                "range": "6\"",
+                "duration": "1 day/level",
+                "area_of_effect": "1-12 creatures",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell allows the caster to suggest a course of action to multiple creatures."
+            },
+            {
+                "name": "Move Earth",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "6\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to move earth and stone to reshape terrain."
+            },
+            {
+                "name": "Project Image",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One image",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a visible image of the caster that can cast spells."
+            },
+            {
+                "name": "Reincarnation",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Dead creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell brings a dead creature back to life in a new body."
+            },
+            {
+                "name": "Repulsion",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a barrier that prevents creatures from approaching the caster."
+            },
+            {
+                "name": "Stone to Flesh",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature or object touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms petrified creatures back to flesh."
+            },
+            {
+                "name": "Transmute Water to Dust",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms water into dust, potentially causing creatures to suffocate."
+            }
+        ],
+        "seventh_level": [
+            {
+                "name": "Bigby's Grasping Hand",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One hand",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates a large magical hand that can grab and hold creatures."
+            },
+            {
+                "name": "Charm Plants",
+                "range": "6\"",
+                "duration": "1 day/level",
+                "area_of_effect": "1-6 plants",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to control plant life, making it friendly and willing to serve."
+            },
+            {
+                "name": "Conjure Earth Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "One elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons an earth elemental to serve the caster."
+            },
+            {
+                "name": "Conjure Fire Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "One elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons a fire elemental to serve the caster."
+            },
+            {
+                "name": "Conjure Water Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "One elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons a water elemental to serve the caster."
+            },
+            {
+                "name": "Crown of Glory",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a crown of light that makes the caster appear more powerful and charismatic."
+            },
+            {
+                "name": "Delayed Blast Fireball",
+                "range": "6\" + 1\"/level",
+                "duration": "5 segments + 1 segment/level",
+                "area_of_effect": "2\" radius sphere",
+                "components": "V,S,M",
+                "casting_time": "5 segments",
+                "saving_throw": "Half",
+                "description": "This spell creates a fireball that can be delayed before exploding, causing 1-6 points of damage per level."
+            },
+            {
+                "name": "Drawmij's Instant Summons",
+                "range": "0",
+                "duration": "Permanent until triggered",
+                "area_of_effect": "One object",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to instantly summon a previously marked object to their hand."
+            },
+            {
+                "name": "Duo-Dimension",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to exist in two places simultaneously."
+            },
+            {
+                "name": "Extension IV",
+                "range": "Touch",
+                "duration": "Special",
+                "area_of_effect": "Spell affected",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell quintuples the duration of another spell."
+            },
+            {
+                "name": "Forcecage",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an impenetrable cage of force around a creature or area."
+            },
+            {
+                "name": "Limited Wish",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "Special",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to alter reality in a limited way to achieve a desired effect."
+            },
+            {
+                "name": "Mass Invisibility",
+                "range": "6\"",
+                "duration": "Permanent until broken",
+                "area_of_effect": "1 creature/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes multiple creatures invisible until they attack or cast a spell."
+            },
+            {
+                "name": "Monster Summoning V",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-4 monsters",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-4 monsters to serve the caster."
+            },
+            {
+                "name": "Mordenkainen's Magnificent Mansion",
+                "range": "0",
+                "duration": "1 day/level",
+                "area_of_effect": "One mansion",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates an extradimensional mansion with food, drink, and servants."
+            },
+            {
+                "name": "Phase Door",
+                "range": "0",
+                "duration": "1 use/level",
+                "area_of_effect": "Caster",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates an invisible door that allows the caster to pass through walls."
+            },
+            {
+                "name": "Power Word, Stun",
+                "range": "6\"",
+                "duration": "2-8 rounds",
+                "area_of_effect": "1 creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell stuns a creature with 50 or fewer hit points."
+            },
+            {
+                "name": "Prismatic Spray",
+                "range": "0",
+                "duration": "Instantaneous",
+                "area_of_effect": "6\" long, 1\" wide",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "Special",
+                "description": "This spell creates a spray of multicolored light that can cause various effects."
+            },
+            {
+                "name": "Reverse Gravity",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell reverses gravity in an area, causing creatures and objects to fall upward."
+            },
+            {
+                "name": "Sequester",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature or object touched",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell hides a creature or object from all forms of detection."
+            },
+            {
+                "name": "Simulacrum",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "One duplicate",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a duplicate of a creature with half its hit points and abilities."
+            },
+            {
+                "name": "Spell Turning",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell reflects spells cast at the caster back at their source."
+            },
+            {
+                "name": "Statue",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms a creature into a statue while preserving its life and consciousness."
+            },
+            {
+                "name": "Vanish",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature or object touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes a creature or object disappear and reappear at a predetermined location."
+            }
+        ],
+        "eighth_level": [
+            {
+                "name": "Abi-Dalzim's Horrid Wilting",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell causes living creatures to wither and die, taking 1-10 points of damage per level of the caster."
+            },
+            {
+                "name": "Antipathy-Sympathy",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "One object or 10 cubic feet",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Neg.",
+                "description": "This spell makes an object or area either repulsive or attractive to a specific type of creature."
+            },
+            {
+                "name": "Bigby's Clenched Fist",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One fist",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates a large magical fist that can punch and damage creatures."
+            },
+            {
+                "name": "Binding",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "One creature",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Neg.",
+                "description": "This spell binds a creature to a specific location or task for an extended period."
+            },
+            {
+                "name": "Clone",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "One clone",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a duplicate of a creature that will grow to maturity if the original dies."
+            },
+            {
+                "name": "Demand",
+                "range": "0",
+                "duration": "1 day/level",
+                "area_of_effect": "One creature",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Neg.",
+                "description": "This spell allows the caster to send a message to a creature anywhere on the same plane of existence."
+            },
+            {
+                "name": "Extension V",
+                "range": "Touch",
+                "duration": "Special",
+                "area_of_effect": "Spell affected",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell sextuples the duration of another spell."
+            },
+            {
+                "name": "Glassee",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes a solid object transparent like glass."
+            },
+            {
+                "name": "Incendiary Cloud",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell creates a cloud of fire that causes 2-8 points of damage per round to creatures within it."
+            },
+            {
+                "name": "Mass Charm",
+                "range": "12\"",
+                "duration": "Special",
+                "area_of_effect": "1-20 creatures",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell makes multiple creatures friendly to the caster and willing to serve them."
+            },
+            {
+                "name": "Maze",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "One creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell traps a creature in an extradimensional maze."
+            },
+            {
+                "name": "Mind Blank",
+                "range": "Touch",
+                "duration": "1 day/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell protects the recipient from all mind-affecting spells and effects."
+            },
+            {
+                "name": "Monster Summoning VI",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-4 monsters",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-4 powerful monsters to serve the caster."
+            },
+            {
+                "name": "Otiluke's Telekinetic Sphere",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" radius sphere",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a sphere of force that can contain and move creatures or objects."
+            },
+            {
+                "name": "Otto's Irresistible Dance",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell forces a creature to dance, preventing it from taking any other actions."
+            },
+            {
+                "name": "Permanency",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Spell affected",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell makes certain spells permanent."
+            },
+            {
+                "name": "Polymorph Any Object",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "One object or creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell transforms any object or creature into another form."
+            },
+            {
+                "name": "Power Word, Blind",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "One creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell blinds a creature with 60 or fewer hit points."
+            },
+            {
+                "name": "Serten's Spell Immunity",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient immune to a specific spell."
+            },
+            {
+                "name": "Symbol",
+                "range": "Touch",
+                "duration": "Permanent until triggered",
+                "area_of_effect": "One symbol",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Special",
+                "description": "This spell creates a magical symbol that triggers a specific effect when viewed."
+            },
+            {
+                "name": "Trap the Soul",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "One creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell traps a creature's soul in a gem, leaving its body in a catatonic state."
+            }
+        ],
+        "ninth_level": [
+            {
+                "name": "Astral Spell",
+                "range": "0",
+                "duration": "Special",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to project their astral body to the Astral Plane."
+            },
+            {
+                "name": "Bigby's Crushing Hand",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One hand",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates a large magical hand that can crush and damage creatures."
+            },
+            {
+                "name": "Crystalbrittle",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes a solid object as brittle as glass."
+            },
+            {
+                "name": "Energy Drain",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell drains 2-8 levels from the target creature."
+            },
+            {
+                "name": "Extension VI",
+                "range": "Touch",
+                "duration": "Special",
+                "area_of_effect": "Spell affected",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell septuples the duration of another spell."
+            },
+            {
+                "name": "Gate",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "One extraplanar creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell opens a portal to another plane of existence and calls forth a creature to serve the caster."
+            },
+            {
+                "name": "Imprisonment",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "One creature",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Neg.",
+                "description": "This spell imprisons a creature in a state of suspended animation."
+            },
+            {
+                "name": "Mass Charm",
+                "range": "12\"",
+                "duration": "Special",
+                "area_of_effect": "1-100 creatures",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell makes multiple creatures friendly to the caster and willing to serve them."
+            },
+            {
+                "name": "Meteor Swarm",
+                "range": "12\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "4 2\" radius spheres",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell creates four meteors that explode on impact, causing 2-24 points of damage each."
+            },
+            {
+                "name": "Monster Summoning VII",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-4 monsters",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-4 very powerful monsters to serve the caster."
+            },
+            {
+                "name": "Power Word, Kill",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "One creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell instantly kills a creature with 60 or fewer hit points."
+            },
+            {
+                "name": "Prismatic Sphere",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "1\" radius sphere",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates a sphere of multicolored light that can cause various effects to creatures passing through it."
+            },
+            {
+                "name": "Shape Change",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to assume the form of any creature."
+            },
+            {
+                "name": "Soul Bind",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "One soul",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell traps the soul of a dead creature in a gem, preventing resurrection."
+            },
+            {
+                "name": "Serten's Spell Immunity",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient immune to a specific spell."
+            },
+            {
+                "name": "Time Stop",
+                "range": "0",
+                "duration": "1-3 rounds",
+                "area_of_effect": "Caster",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell stops time for everyone except the caster."
+            },
+            {
+                "name": "Temporal Stasis",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell places a creature in a state of suspended animation."
+            },
+            {
+                "name": "Wish",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "Special",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to alter reality to achieve a desired effect."
+            }
+        ]
+    }
+} 

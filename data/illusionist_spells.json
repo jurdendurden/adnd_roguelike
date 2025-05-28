@@ -1,0 +1,768 @@
+{
+    "illusionist_spells": {
+        "first_level": [
+            {
+                "name": "Audible Glamer",
+                "range": "6\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates any sound the caster desires, from a whisper to a roar."
+            },
+            {
+                "name": "Change Self",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to alter their appearance, including height, weight, and facial features."
+            },
+            {
+                "name": "Color Spray",
+                "range": "0",
+                "duration": "1 round",
+                "area_of_effect": "1\" wide, 3\" long cone",
+                "components": "V,S,M",
+                "casting_time": "1 segment",
+                "saving_throw": "Special",
+                "description": "This spell creates a cone of colored light that may blind or stun creatures."
+            },
+            {
+                "name": "Dancing Lights",
+                "range": "6\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1-4 lights",
+                "components": "V,S,M",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates 1-4 lights that can be moved and controlled by the caster."
+            },
+            {
+                "name": "Detect Illusion",
+                "range": "6\"",
+                "duration": "2 rounds",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects illusions in the area of effect."
+            },
+            {
+                "name": "Gaze Reflection",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell reflects gaze attacks back at the attacker."
+            },
+            {
+                "name": "Hypnotism",
+                "range": "3\"",
+                "duration": "2-5 rounds",
+                "area_of_effect": "1-4 creatures",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell hypnotizes 1-4 creatures, making them susceptible to suggestion."
+            },
+            {
+                "name": "Light",
+                "range": "12\"",
+                "duration": "6 turns + 1 turn/level",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 segment",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a light source equivalent to a torch."
+            },
+            {
+                "name": "Phantasmal Force",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an illusion that can be seen, heard, and felt."
+            },
+            {
+                "name": "Spook",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature to flee in panic."
+            },
+            {
+                "name": "Ventriloquism",
+                "range": "6\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1 voice",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to throw their voice to any point within range."
+            }
+        ],
+        "second_level": [
+            {
+                "name": "Blindness",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature to become permanently blind."
+            },
+            {
+                "name": "Blur",
+                "range": "Touch",
+                "duration": "3 rounds + 1 round/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient's outline blurry, giving them a -2 penalty to hit."
+            },
+            {
+                "name": "Deafness",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature to become permanently deaf."
+            },
+            {
+                "name": "Detect Invisibility",
+                "range": "6\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "1\" path",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to see invisible creatures and objects."
+            },
+            {
+                "name": "Fog Cloud",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a fog that obscures vision and provides concealment."
+            },
+            {
+                "name": "Hypnotic Pattern",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "2\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a pattern of light that hypnotizes creatures who look at it."
+            },
+            {
+                "name": "Improved Phantasmal Force",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an illusion that can be seen, heard, and felt, and can cause damage."
+            },
+            {
+                "name": "Invisibility",
+                "range": "Touch",
+                "duration": "Permanent until broken",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient invisible until they attack or cast a spell."
+            },
+            {
+                "name": "Magic Mouth",
+                "range": "1\"",
+                "duration": "Permanent until triggered",
+                "area_of_effect": "One object",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a magical mouth on an object that speaks when triggered."
+            },
+            {
+                "name": "Mirror Image",
+                "range": "0",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell creates 1-4 mirror images of the caster that move with them."
+            },
+            {
+                "name": "Misdirection",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes divination spells target a different creature or object."
+            },
+            {
+                "name": "Phantom Steed",
+                "range": "0",
+                "duration": "1 hour/level",
+                "area_of_effect": "One steed",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a phantom horse that can carry the caster at great speed."
+            }
+        ],
+        "third_level": [
+            {
+                "name": "Continual Light",
+                "range": "12\"",
+                "duration": "Permanent",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a permanent light source equivalent to a torch."
+            },
+            {
+                "name": "Dispel Illusion",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cancels illusion spells in the area of effect."
+            },
+            {
+                "name": "Fear",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes a creature to flee in panic for 1 round per level of the caster."
+            },
+            {
+                "name": "Hallucinatory Terrain",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates an illusion that makes one type of terrain appear as another."
+            },
+            {
+                "name": "Illusionary Script",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "One page",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Special",
+                "description": "This spell creates writing that can only be read by a specific creature or type of creature."
+            },
+            {
+                "name": "Invisibility 10' Radius",
+                "range": "Touch",
+                "duration": "Permanent until broken",
+                "area_of_effect": "10' radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes all creatures within 10' of the recipient invisible until they attack or cast a spell."
+            },
+            {
+                "name": "Nondetection",
+                "range": "Touch",
+                "duration": "1 hour/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell prevents divination spells from detecting the recipient."
+            },
+            {
+                "name": "Paralyzation",
+                "range": "6\"",
+                "duration": "2-8 rounds",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell paralyzes a creature for 2-8 rounds."
+            },
+            {
+                "name": "Phantom Steed",
+                "range": "0",
+                "duration": "1 hour/level",
+                "area_of_effect": "One steed",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a phantom horse that can carry the caster at great speed."
+            },
+            {
+                "name": "Rope Trick",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "One rope",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes a rope climb into the air and create an extradimensional space."
+            },
+            {
+                "name": "Spectral Force",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an illusion that can be seen, heard, and felt, and can cause damage."
+            }
+        ],
+        "fourth_level": [
+            {
+                "name": "Confusion",
+                "range": "12\"",
+                "duration": "3 rounds",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes creatures in the area to become confused and act randomly."
+            },
+            {
+                "name": "Emotion",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes creatures in the area to feel a specific emotion."
+            },
+            {
+                "name": "Fear",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes creatures in the area to flee in panic."
+            },
+            {
+                "name": "Hallucinatory Terrain",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates an illusion that makes one type of terrain appear as another."
+            },
+            {
+                "name": "Illusionary Wall",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an illusionary wall that can be seen, heard, and felt."
+            },
+            {
+                "name": "Improved Invisibility",
+                "range": "Touch",
+                "duration": "1 round/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient invisible, even when they attack or cast spells."
+            },
+            {
+                "name": "Massmorph",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1\" square/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes creatures in the area appear as trees."
+            },
+            {
+                "name": "Minor Creation",
+                "range": "1\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a non-living object of vegetable matter."
+            },
+            {
+                "name": "Phantasmal Killer",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an illusion of the target's worst fear, which may kill them."
+            },
+            {
+                "name": "Rainbow Pattern",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "2\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a pattern of colored light that fascinates creatures who look at it."
+            },
+            {
+                "name": "Shadow Monsters",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates shadowy monsters that can attack and cause damage."
+            }
+        ],
+        "fifth_level": [
+            {
+                "name": "Advanced Illusion",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an illusion that can be seen, heard, and felt, and can cause damage."
+            },
+            {
+                "name": "Chaos",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell causes creatures in the area to act randomly and chaotically."
+            },
+            {
+                "name": "Demi-Shadow Monsters",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates shadowy monsters that are 60% real and can attack and cause damage."
+            },
+            {
+                "name": "Maze",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell traps a creature in an extradimensional maze."
+            },
+            {
+                "name": "Mirage Arcana",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates an illusion that makes one type of terrain appear as another."
+            },
+            {
+                "name": "Permanent Illusion",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a permanent illusion that can be seen, heard, and felt."
+            },
+            {
+                "name": "Projected Image",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an illusionary image of the caster that can move and speak."
+            },
+            {
+                "name": "Shadow Door",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a door through shadows that allows the caster to teleport."
+            },
+            {
+                "name": "Shadow Magic",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates shadowy versions of other spells that are 60% real."
+            },
+            {
+                "name": "Telekinesis",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "1 object",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to move objects with their mind."
+            }
+        ],
+        "sixth_level": [
+            {
+                "name": "Conjure Animals",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-8 animals",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-8 animals to serve the caster."
+            },
+            {
+                "name": "Demi-Shadow Magic",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates shadowy versions of other spells that are 80% real."
+            },
+            {
+                "name": "Mass Suggestion",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell suggests a course of action to all creatures in the area."
+            },
+            {
+                "name": "Mislead",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the caster invisible and creates an illusionary double."
+            },
+            {
+                "name": "Permanent Illusion",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a permanent illusion that can be seen, heard, and felt."
+            },
+            {
+                "name": "Programmed Illusion",
+                "range": "6\"",
+                "duration": "Permanent until triggered",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates an illusion that activates when certain conditions are met."
+            },
+            {
+                "name": "Shadow Monsters",
+                "range": "6\"",
+                "duration": "Concentration",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates shadowy monsters that can attack and cause damage."
+            },
+            {
+                "name": "True Seeing",
+                "range": "Touch",
+                "duration": "1 round/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the recipient to see through illusions and invisibility."
+            }
+        ],
+        "seventh_level": [
+            {
+                "name": "Alter Reality",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to alter reality in a limited way."
+            },
+            {
+                "name": "Astral Spell",
+                "range": "0",
+                "duration": "Special",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to project their astral form to the Astral Plane."
+            },
+            {
+                "name": "Conjure Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons an elemental to serve the caster."
+            },
+            {
+                "name": "Mass Invisibility",
+                "range": "Touch",
+                "duration": "1 round/level",
+                "area_of_effect": "10' radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes all creatures within 10' of the recipient invisible."
+            },
+            {
+                "name": "Permanent Illusion",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a permanent illusion that can be seen, heard, and felt."
+            },
+            {
+                "name": "Power Word, Blind",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell blinds a creature with 60 or fewer hit points."
+            },
+            {
+                "name": "Power Word, Kill",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell kills a creature with 60 or fewer hit points."
+            },
+            {
+                "name": "Power Word, Stun",
+                "range": "6\"",
+                "duration": "2-8 rounds",
+                "area_of_effect": "1 creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell stuns a creature with 60 or fewer hit points."
+            },
+            {
+                "name": "Prismatic Spray",
+                "range": "0",
+                "duration": "Instantaneous",
+                "area_of_effect": "1\" wide, 3\" long cone",
+                "components": "V,S",
+                "casting_time": "1 segment",
+                "saving_throw": "Special",
+                "description": "This spell creates a cone of colored light that may blind, paralyze, or kill creatures."
+            },
+            {
+                "name": "Project Image",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an illusionary image of the caster that can move and speak."
+            },
+            {
+                "name": "Shadow Walk",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster and up to 3 others",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster and up to 3 others to travel through shadows."
+            },
+            {
+                "name": "Simulacrum",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "One duplicate",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a duplicate of a creature that has 60% of the original's abilities."
+            }
+        ]
+    }
+} 

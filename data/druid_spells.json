@@ -1,0 +1,768 @@
+{
+    "druid_spells": {
+        "first_level": [
+            {
+                "name": "Animal Friendship",
+                "range": "3\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 animal",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes an animal friendly to the caster and willing to serve them."
+            },
+            {
+                "name": "Detect Magic",
+                "range": "6\"",
+                "duration": "2 rounds",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects magical auras in creatures or objects."
+            },
+            {
+                "name": "Detect Snares & Pits",
+                "range": "3\"",
+                "duration": "2 turns",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects mechanical or magical traps in the area of effect."
+            },
+            {
+                "name": "Entangle",
+                "range": "8\"",
+                "duration": "1 turn",
+                "area_of_effect": "4\" square",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell causes plants to entangle creatures in the area of effect."
+            },
+            {
+                "name": "Faerie Fire",
+                "range": "6\"",
+                "duration": "1 turn",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell outlines a creature with a glowing light, making it easier to hit."
+            },
+            {
+                "name": "Invisibility to Animals",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient invisible to animals."
+            },
+            {
+                "name": "Locate Animals",
+                "range": "0",
+                "duration": "1 turn",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell locates the nearest animal of a specific type."
+            },
+            {
+                "name": "Pass without Trace",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient leave no tracks and be harder to track by scent."
+            },
+            {
+                "name": "Predict Weather",
+                "range": "0",
+                "duration": "1 turn",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell predicts the weather for the next 24 hours."
+            },
+            {
+                "name": "Purify Water",
+                "range": "1\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes spoiled or poisoned water pure and suitable for drinking."
+            },
+            {
+                "name": "Shillelagh",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "One club",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms a club into a magical weapon that deals 1d8+1 damage."
+            }
+        ],
+        "second_level": [
+            {
+                "name": "Barkskin",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient an AC of 5 or better."
+            },
+            {
+                "name": "Charm Person or Mammal",
+                "range": "12\"",
+                "duration": "Special",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell makes a person or mammal friendly to the caster."
+            },
+            {
+                "name": "Create Water",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "2 cubic feet",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates 2 cubic feet of pure water."
+            },
+            {
+                "name": "Cure Light Wounds",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell heals 1-8 points of damage to any living creature."
+            },
+            {
+                "name": "Heat Metal",
+                "range": "6\"",
+                "duration": "7 rounds",
+                "area_of_effect": "1 metal object",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell heats a metal object, causing damage to creatures touching it."
+            },
+            {
+                "name": "Locate Plants",
+                "range": "0",
+                "duration": "1 turn",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell locates the nearest plant of a specific type."
+            },
+            {
+                "name": "Obscurement",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a fog that obscures vision and provides concealment."
+            },
+            {
+                "name": "Produce Flame",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a flame in the caster's hand that can be used as a light source or thrown as a missile."
+            },
+            {
+                "name": "Warp Wood",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell warps and bends wooden objects."
+            }
+        ],
+        "third_level": [
+            {
+                "name": "Call Lightning",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "Half",
+                "description": "This spell calls down a bolt of lightning that causes 2-16 points of damage."
+            },
+            {
+                "name": "Hold Animal",
+                "range": "6\"",
+                "duration": "7 rounds",
+                "area_of_effect": "1-4 animals",
+                "components": "V,S",
+                "casting_time": "5 segments",
+                "saving_throw": "Neg.",
+                "description": "This spell holds 1-4 animals immobile for 7 rounds unless they save vs. spells."
+            },
+            {
+                "name": "Neutralize Poison",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell neutralizes any poison in the recipient's system."
+            },
+            {
+                "name": "Plant Growth",
+                "range": "8\"",
+                "duration": "Permanent",
+                "area_of_effect": "4\" square",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell causes plants to grow rapidly, creating difficult terrain."
+            },
+            {
+                "name": "Protection from Fire",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient +2 to saving throws against fire-based attacks and reduces fire damage by 1 point per die."
+            },
+            {
+                "name": "Pyrotechnics",
+                "range": "6\"",
+                "duration": "1 round",
+                "area_of_effect": "1 fire source",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates a burst of fireworks from a fire source, potentially blinding creatures."
+            },
+            {
+                "name": "Snake Charm",
+                "range": "6\"",
+                "duration": "2-5 rounds",
+                "area_of_effect": "1-6 snakes",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell charms 1-6 snakes, making them friendly to the caster."
+            },
+            {
+                "name": "Speak with Animals",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to communicate with animals."
+            },
+            {
+                "name": "Tree",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms the caster into a tree."
+            },
+            {
+                "name": "Water Breathing",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the recipient to breathe underwater."
+            }
+        ],
+        "fourth_level": [
+            {
+                "name": "Animal Summoning I",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-4 animals",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-4 animals to serve the caster."
+            },
+            {
+                "name": "Call Woodland Beings",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-8 fey creatures",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons 1-8 fey creatures to serve the caster."
+            },
+            {
+                "name": "Control Temperature 10' Radius",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "10' radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to control the temperature in the area of effect."
+            },
+            {
+                "name": "Cure Disease",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cures all diseases afflicting the recipient."
+            },
+            {
+                "name": "Dispel Magic",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cancels magical spells and effects in the area of effect."
+            },
+            {
+                "name": "Hallucinatory Forest",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "4\" square",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates an illusion of a forest that can hide creatures and objects."
+            },
+            {
+                "name": "Plant Door",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "One tree",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a passage through a tree to another tree of the same type."
+            },
+            {
+                "name": "Produce Fire",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a fire that can be used as a light source or weapon."
+            },
+            {
+                "name": "Protection from Lightning",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient +2 to saving throws against lightning-based attacks and reduces lightning damage by 1 point per die."
+            },
+            {
+                "name": "Repel Insects",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a barrier that repels insects."
+            },
+            {
+                "name": "Speak with Plants",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to communicate with plants and animate them."
+            },
+            {
+                "name": "Sticks to Snakes",
+                "range": "3\"",
+                "duration": "1 round/level",
+                "area_of_effect": "2-8 snakes",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms 2-8 sticks into snakes that obey the caster's commands."
+            }
+        ],
+        "fifth_level": [
+            {
+                "name": "Animal Growth",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-4 animals",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell doubles the size and strength of 1-4 animals."
+            },
+            {
+                "name": "Animal Summoning II",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-6 animals",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-6 animals to serve the caster."
+            },
+            {
+                "name": "Commune with Nature",
+                "range": "0",
+                "duration": "1 round",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell gives the caster information about the surrounding area."
+            },
+            {
+                "name": "Control Winds",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "4\" radius",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to control the wind in the area of effect."
+            },
+            {
+                "name": "Create Food & Water",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "Food for 3-18 humans",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates enough food and water to feed 3-18 humans for one day."
+            },
+            {
+                "name": "Cure Serious Wounds",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell heals 2-16 points of damage to any living creature."
+            },
+            {
+                "name": "Dispel Magic",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cancels magical spells and effects in the area of effect."
+            },
+            {
+                "name": "Insect Plague",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a swarm of insects that causes 1-10 points of damage per round to all creatures in the area."
+            },
+            {
+                "name": "Stoneskin",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient an AC of 0 and immunity to normal weapons."
+            },
+            {
+                "name": "Transmute Rock to Mud",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms rock into mud. The reverse, transmute mud to rock, transforms mud into rock."
+            },
+            {
+                "name": "Wall of Fire",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1\" wide, 2\" high wall",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a wall of fire that causes 2-8 points of damage to creatures passing through it."
+            }
+        ],
+        "sixth_level": [
+            {
+                "name": "Animal Summoning III",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-8 animals",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-8 animals to serve the caster."
+            },
+            {
+                "name": "Anti-Animal Shell",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a barrier that prevents animals from entering the area of effect."
+            },
+            {
+                "name": "Conjure Fire Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons a fire elemental to serve the caster."
+            },
+            {
+                "name": "Control Weather",
+                "range": "0",
+                "duration": "4-40 turns",
+                "area_of_effect": "4\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to control the weather in the area of effect."
+            },
+            {
+                "name": "Feeblemind",
+                "range": "12\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell reduces the target's Intelligence to 1, making them unable to cast spells or use magic items."
+            },
+            {
+                "name": "Fire Seeds",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "4 acorns or 8 holly berries",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell transforms acorns or holly berries into explosive missiles that cause 1-8 points of damage each."
+            },
+            {
+                "name": "Heal",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell heals all damage and removes all diseases and poisons from the recipient."
+            },
+            {
+                "name": "Heroes' Feast",
+                "range": "0",
+                "duration": "1 hour",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a feast that heals 1-8 points of damage and gives +1 to attack rolls and saving throws for 12 hours."
+            },
+            {
+                "name": "Part Water",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1\" wide path",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell parts a body of water, creating a dry path through it."
+            },
+            {
+                "name": "Transport via Plants",
+                "range": "Touch",
+                "duration": "1 round",
+                "area_of_effect": "Caster and up to 3 others",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster and up to 3 others to instantly travel to another plant of the same type."
+            },
+            {
+                "name": "Wall of Thorns",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1\" wide, 2\" high wall",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a wall of thorns that causes 1-6 points of damage to creatures passing through it."
+            }
+        ],
+        "seventh_level": [
+            {
+                "name": "Animate Rock",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-4 rocks",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell animates 1-4 rocks to fight for the caster."
+            },
+            {
+                "name": "Chariot of Sustarre",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster and up to 7 others",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a magical chariot that can fly and carry the caster and up to 7 others."
+            },
+            {
+                "name": "Conjure Earth Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons an earth elemental to serve the caster."
+            },
+            {
+                "name": "Conjure Water Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons a water elemental to serve the caster."
+            },
+            {
+                "name": "Creeping Doom",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a swarm of insects that causes 1-10 points of damage per round to all creatures in the area."
+            },
+            {
+                "name": "Fire Storm",
+                "range": "6\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell creates a storm of fire that causes 2-20 points of damage to all creatures in the area."
+            },
+            {
+                "name": "Reincarnate",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Dead creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell brings a dead creature back to life in a new body."
+            },
+            {
+                "name": "Regenerate",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "3 rounds",
+                "saving_throw": "None",
+                "description": "This spell regenerates lost limbs and organs of the recipient."
+            },
+            {
+                "name": "Sunray",
+                "range": "0",
+                "duration": "1 round",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates a beam of sunlight that causes 4-32 points of damage to undead creatures and may blind other creatures."
+            },
+            {
+                "name": "Transmute Metal to Wood",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms metal into wood."
+            },
+            {
+                "name": "Wind Walk",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster and up to 3 others",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms the caster and up to 3 others into mist, allowing them to fly at great speed."
+            }
+        ]
+    }
+} 

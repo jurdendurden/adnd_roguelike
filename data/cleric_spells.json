@@ -1,0 +1,758 @@
+{
+    "cleric_spells": {
+        "first_level": [
+            {
+                "name": "Bless",
+                "range": "6\"",
+                "duration": "6 turns",
+                "area_of_effect": "2\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell blesses the recipient with a +1 bonus to attack dice, damage dice, and saving throws. The reverse, bane, gives a -1 penalty to the same."
+            },
+            {
+                "name": "Command",
+                "range": "1\"",
+                "duration": "1 round",
+                "area_of_effect": "1 creature",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "Neg.",
+                "description": "The spell forces one creature to obey a single-word command for 1 round. The command must be in a language the creature understands."
+            },
+            {
+                "name": "Create Water",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "2 cubic feet",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates 2 cubic feet of pure water. The reverse, destroy water, eliminates 2 cubic feet of water."
+            },
+            {
+                "name": "Cure Light Wounds",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell heals 1-8 points of damage to any living creature. The reverse, cause light wounds, inflicts 1-8 points of damage."
+            },
+            {
+                "name": "Detect Evil",
+                "range": "6\"",
+                "duration": "2 rounds",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects evil intentions or evil auras in creatures or objects."
+            },
+            {
+                "name": "Detect Magic",
+                "range": "6\"",
+                "duration": "2 rounds",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects magical auras in creatures or objects."
+            },
+            {
+                "name": "Detect Poison",
+                "range": "1\"",
+                "duration": "1 round",
+                "area_of_effect": "1 cubic foot",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects poison in a creature, object, or area."
+            },
+            {
+                "name": "Light",
+                "range": "12\"",
+                "duration": "6 turns + 1 turn/level",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 segment",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a light source equivalent to a torch. The reverse, darkness, creates a 1\" radius of darkness."
+            },
+            {
+                "name": "Protection from Evil",
+                "range": "Touch",
+                "duration": "2 rounds/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a magical barrier around the recipient that gives +1 to saving throws and -1 to hit rolls from evil creatures."
+            },
+            {
+                "name": "Purify Food & Water",
+                "range": "1\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 cubic foot/level",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes spoiled or poisoned food and water pure and suitable for eating and drinking."
+            },
+            {
+                "name": "Remove Fear",
+                "range": "1\"",
+                "duration": "1 round",
+                "area_of_effect": "1 creature",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell removes fear from one creature. The reverse, cause fear, causes one creature to flee in panic for 1 round."
+            },
+            {
+                "name": "Resist Cold",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient +2 to saving throws against cold-based attacks and reduces cold damage by 1 point per die."
+            }
+        ],
+        "second_level": [
+            {
+                "name": "Aid",
+                "range": "Touch",
+                "duration": "6 turns + 1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient +1 to attack rolls and +1 to saving throws, plus 1-8 temporary hit points."
+            },
+            {
+                "name": "Augury",
+                "range": "0",
+                "duration": "1 round",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell gives the caster a yes or no answer about the outcome of a specific action in the immediate future."
+            },
+            {
+                "name": "Chant",
+                "range": "0",
+                "duration": "1 turn",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives +1 to attack rolls, damage rolls, and saving throws to all allies within range, and -1 to the same for enemies."
+            },
+            {
+                "name": "Find Traps",
+                "range": "3\"",
+                "duration": "2 turns",
+                "area_of_effect": "1\" path",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell detects mechanical or magical traps in the area of effect."
+            },
+            {
+                "name": "Hold Person",
+                "range": "6\"",
+                "duration": "7 rounds",
+                "area_of_effect": "1-4 persons in 4\" cube",
+                "components": "V,S,M",
+                "casting_time": "5 segments",
+                "saving_throw": "Neg.",
+                "description": "This spell holds 1-4 humanoid creatures immobile for 7 rounds unless they save vs. spells."
+            },
+            {
+                "name": "Know Alignment",
+                "range": "1\"",
+                "duration": "1 round",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell reveals the alignment of one creature."
+            },
+            {
+                "name": "Resist Fire",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient +2 to saving throws against fire-based attacks and reduces fire damage by 1 point per die."
+            },
+            {
+                "name": "Silence 15' Radius",
+                "range": "12\"",
+                "duration": "2 rounds/level",
+                "area_of_effect": "15' radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a zone of silence where no sound can be made or heard."
+            },
+            {
+                "name": "Snake Charm",
+                "range": "6\"",
+                "duration": "2-5 rounds",
+                "area_of_effect": "1-6 snakes",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell charms 1-6 snakes, making them friendly to the caster."
+            },
+            {
+                "name": "Speak with Animals",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to communicate with animals."
+            }
+        ],
+        "third_level": [
+            {
+                "name": "Animate Dead",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1-6 skeletons or zombies",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell animates 1-6 skeletons or zombies from dead bodies."
+            },
+            {
+                "name": "Continual Light",
+                "range": "12\"",
+                "duration": "Permanent",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell creates a permanent light source equivalent to a torch. The reverse, continual darkness, creates a permanent 1\" radius of darkness."
+            },
+            {
+                "name": "Create Food & Water",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "Food for 3-18 humans",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates enough food and water to feed 3-18 humans for one day."
+            },
+            {
+                "name": "Cure Blindness",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cures blindness or deafness. The reverse, cause blindness, causes permanent blindness unless cured."
+            },
+            {
+                "name": "Cure Disease",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cures all diseases afflicting the recipient. The reverse, cause disease, causes a fatal disease."
+            },
+            {
+                "name": "Dispel Magic",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "3\" cube",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell cancels magical spells and effects in the area of effect."
+            },
+            {
+                "name": "Feign Death",
+                "range": "Touch",
+                "duration": "1 turn/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell makes the recipient appear dead to all senses."
+            },
+            {
+                "name": "Glyph of Warding",
+                "range": "Touch",
+                "duration": "Permanent until triggered",
+                "area_of_effect": "One object",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Half",
+                "description": "This spell creates a magical trap on an object that triggers when touched by an unauthorized creature."
+            },
+            {
+                "name": "Locate Object",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 specific object",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell locates a specific object known to the caster."
+            },
+            {
+                "name": "Prayer",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives +1 to attack rolls, damage rolls, and saving throws to all allies within range, and -1 to the same for enemies."
+            },
+            {
+                "name": "Remove Curse",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature or object touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell removes curses from creatures or objects. The reverse, bestow curse, places a curse on a creature."
+            },
+            {
+                "name": "Speak with Dead",
+                "range": "3\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 dead creature",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to ask questions of a dead creature and receive answers."
+            }
+        ],
+        "fourth_level": [
+            {
+                "name": "Abjure",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 extraplanar creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Neg.",
+                "description": "This spell forces an extraplanar creature to return to its home plane."
+            },
+            {
+                "name": "Cure Serious Wounds",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell heals 2-16 points of damage to any living creature. The reverse, cause serious wounds, inflicts 2-16 points of damage."
+            },
+            {
+                "name": "Divination",
+                "range": "0",
+                "duration": "1 round",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell gives the caster information about the immediate future."
+            },
+            {
+                "name": "Exorcise",
+                "range": "3\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Neg.",
+                "description": "This spell forces a possessing entity to leave its host."
+            },
+            {
+                "name": "Neutralize Poison",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell neutralizes any poison in the recipient's system."
+            },
+            {
+                "name": "Protection from Evil 10' Radius",
+                "range": "Touch",
+                "duration": "2 rounds/level",
+                "area_of_effect": "10' radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a magical barrier around the recipient and all allies within 10' that gives +1 to saving throws and -1 to hit rolls from evil creatures."
+            },
+            {
+                "name": "Speak with Plants",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to communicate with plants and animate them."
+            },
+            {
+                "name": "Sticks to Snakes",
+                "range": "3\"",
+                "duration": "1 round/level",
+                "area_of_effect": "2-8 snakes",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell transforms 2-8 sticks into snakes that obey the caster's commands."
+            }
+        ],
+        "fifth_level": [
+            {
+                "name": "Atonement",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell restores a fallen cleric to their former status."
+            },
+            {
+                "name": "Commune",
+                "range": "0",
+                "duration": "1 round",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to ask questions of their deity and receive yes or no answers."
+            },
+            {
+                "name": "Commune with Nature",
+                "range": "0",
+                "duration": "1 round",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell gives the caster information about the surrounding area."
+            },
+            {
+                "name": "Create Food & Water",
+                "range": "0",
+                "duration": "Permanent",
+                "area_of_effect": "Food for 3-18 humans",
+                "components": "V,S",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates enough food and water to feed 3-18 humans for one day."
+            },
+            {
+                "name": "Dispel Evil",
+                "range": "Touch",
+                "duration": "1 round/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell gives the recipient +2 to saving throws against evil creatures and -2 to hit rolls from evil creatures."
+            },
+            {
+                "name": "Flame Strike",
+                "range": "3\"",
+                "duration": "Instantaneous",
+                "area_of_effect": "1\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell creates a column of divine fire that causes 8-48 points of damage to all creatures in the area."
+            },
+            {
+                "name": "Insect Plague",
+                "range": "12\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "3\" radius",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates a swarm of insects that causes 1-10 points of damage per round to all creatures in the area."
+            },
+            {
+                "name": "Quest",
+                "range": "6\"",
+                "duration": "Permanent",
+                "area_of_effect": "1 creature",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Neg.",
+                "description": "This spell forces a creature to perform a specific task or suffer penalties."
+            },
+            {
+                "name": "Raise Dead",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Dead creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell restores life to a dead creature. The reverse, slay living, causes instant death to a living creature."
+            },
+            {
+                "name": "True Seeing",
+                "range": "Touch",
+                "duration": "1 round/level",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the recipient to see through illusions and invisibility."
+            }
+        ],
+        "sixth_level": [
+            {
+                "name": "Animate Objects",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1-6 objects",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell animates 1-6 objects to fight for the caster."
+            },
+            {
+                "name": "Blade Barrier",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1\" wide, 2\" high wall",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "Half",
+                "description": "This spell creates a wall of whirling blades that causes 8-48 points of damage to creatures passing through it."
+            },
+            {
+                "name": "Conjure Animals",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1-8 animals",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell summons 1-8 animals to serve the caster."
+            },
+            {
+                "name": "Find the Path",
+                "range": "0",
+                "duration": "1 turn/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell shows the caster the most direct path to a desired destination."
+            },
+            {
+                "name": "Heal",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell heals all damage and removes all diseases and poisons from the recipient. The reverse, harm, causes 1-100 points of damage."
+            },
+            {
+                "name": "Heroes' Feast",
+                "range": "0",
+                "duration": "1 hour",
+                "area_of_effect": "3\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell creates a feast that heals 1-8 points of damage and gives +1 to attack rolls and saving throws for 12 hours."
+            },
+            {
+                "name": "Part Water",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1\" wide path",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell parts a body of water, creating a dry path through it."
+            },
+            {
+                "name": "Projected Image",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell creates an illusionary image of the caster that can move and speak."
+            },
+            {
+                "name": "Speak with Monsters",
+                "range": "0",
+                "duration": "1 round/level",
+                "area_of_effect": "Caster",
+                "components": "V,S",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to communicate with any monster."
+            },
+            {
+                "name": "Word of Recall",
+                "range": "0",
+                "duration": "Instantaneous",
+                "area_of_effect": "Caster and up to 6 others",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "None",
+                "description": "This spell teleports the caster and up to 6 others to a previously designated sanctuary."
+            }
+        ],
+        "seventh_level": [
+            {
+                "name": "Astral Spell",
+                "range": "0",
+                "duration": "Special",
+                "area_of_effect": "Caster",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to project their astral form to the Astral Plane."
+            },
+            {
+                "name": "Conjure Earth Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons an earth elemental to serve the caster."
+            },
+            {
+                "name": "Conjure Fire Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons a fire elemental to serve the caster."
+            },
+            {
+                "name": "Conjure Water Elemental",
+                "range": "6\"",
+                "duration": "1 turn/level",
+                "area_of_effect": "1 elemental",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell summons a water elemental to serve the caster."
+            },
+            {
+                "name": "Control Weather",
+                "range": "0",
+                "duration": "4-40 turns",
+                "area_of_effect": "4\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell allows the caster to control the weather in the area of effect."
+            },
+            {
+                "name": "Earthquake",
+                "range": "6\"",
+                "duration": "1 round",
+                "area_of_effect": "4\" radius",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "Special",
+                "description": "This spell creates an earthquake that causes damage to structures and creatures in the area."
+            },
+            {
+                "name": "Gate",
+                "range": "6\"",
+                "duration": "1 round/level",
+                "area_of_effect": "1 extraplanar creature",
+                "components": "V,S,M",
+                "casting_time": "1 round",
+                "saving_throw": "None",
+                "description": "This spell opens a gate to another plane and summons a creature from that plane."
+            },
+            {
+                "name": "Holy Word",
+                "range": "0",
+                "duration": "Instantaneous",
+                "area_of_effect": "4\" radius",
+                "components": "V",
+                "casting_time": "1 segment",
+                "saving_throw": "Special",
+                "description": "This spell causes damage to evil creatures and may banish them to another plane. The reverse, unholy word, affects good creatures."
+            },
+            {
+                "name": "Regenerate",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "3 rounds",
+                "saving_throw": "None",
+                "description": "This spell regenerates lost limbs and organs of the recipient."
+            },
+            {
+                "name": "Restoration",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell restores all ability score points lost to level drain or other effects."
+            },
+            {
+                "name": "Resurrection",
+                "range": "Touch",
+                "duration": "Permanent",
+                "area_of_effect": "Dead creature touched",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "None",
+                "description": "This spell restores life to a dead creature, even if they have been dead for up to 10 years per level of the caster."
+            },
+            {
+                "name": "Symbol",
+                "range": "Touch",
+                "duration": "Permanent until triggered",
+                "area_of_effect": "One symbol",
+                "components": "V,S,M",
+                "casting_time": "1 turn",
+                "saving_throw": "Special",
+                "description": "This spell creates a magical symbol that triggers a specific effect when viewed."
+            }
+        ]
+    }
+} 

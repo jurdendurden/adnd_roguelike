@@ -1,0 +1,142 @@
+{
+  "party": [
+    {
+      "name": "tertr",
+      "race": "Human",
+      "characterClass": "Fighter",
+      "level": 1,
+      "experience": 0,
+      "abilities": {
+        "STR": 12,
+        "INT": 5,
+        "WIS": 10,
+        "DEX": 18,
+        "CON": 12,
+        "CHA": 5
+      },
+      "hitPoints": 11,
+      "maxHitPoints": 11,
+      "armorClass": 10,
+      "thac0": 20,
+      "savingThrows": {
+        "Death": 14,
+        "Wands": 15,
+        "Paralysis": 16,
+        "Breath": 17,
+        "Spells": 17
+      },
+      "inventory": [],
+      "equipment": {
+        "weapon": null,
+        "armor": null,
+        "shield": null,
+        "helmet": null
+      }
+    },
+    {
+      "name": "tefds",
+      "race": "Elf",
+      "characterClass": "Fighter",
+      "level": 1,
+      "experience": 0,
+      "abilities": {
+        "STR": 16,
+        "INT": 12,
+        "WIS": 18,
+        "DEX": 18,
+        "CON": 16,
+        "CHA": 13
+      },
+      "hitPoints": 6,
+      "maxHitPoints": 6,
+      "armorClass": 10,
+      "thac0": 20,
+      "savingThrows": {
+        "Death": 14,
+        "Wands": 15,
+        "Paralysis": 16,
+        "Breath": 17,
+        "Spells": 17
+      },
+      "inventory": [],
+      "equipment": {
+        "weapon": null,
+        "armor": null,
+        "shield": null,
+        "helmet": null
+      }
+    },
+    {
+      "name": "redfrs",
+      "race": "Human",
+      "characterClass": "Thief",
+      "level": 1,
+      "experience": 0,
+      "abilities": {
+        "STR": 19,
+        "INT": 18,
+        "WIS": 9,
+        "DEX": 18,
+        "CON": 19,
+        "CHA": 17
+      },
+      "hitPoints": 7,
+      "maxHitPoints": 7,
+      "armorClass": 10,
+      "thac0": 20,
+      "savingThrows": {
+        "Death": 13,
+        "Wands": 14,
+        "Paralysis": 12,
+        "Breath": 16,
+        "Spells": 15
+      },
+      "inventory": [],
+      "equipment": {
+        "weapon": null,
+        "armor": null,
+        "shield": null,
+        "helmet": null
+      }
+    },
+    {
+      "name": "fdfsdc",
+      "race": "Human",
+      "characterClass": "Cleric",
+      "level": 1,
+      "experience": 0,
+      "abilities": {
+        "STR": 9,
+        "INT": 7,
+        "WIS": 15,
+        "DEX": 15,
+        "CON": 6,
+        "CHA": 9
+      },
+      "hitPoints": 4,
+      "maxHitPoints": 4,
+      "armorClass": 10,
+      "thac0": 20,
+      "savingThrows": {
+        "Death": 11,
+        "Wands": 12,
+        "Paralysis": 14,
+        "Breath": 16,
+        "Spells": 15
+      },
+      "inventory": [],
+      "equipment": {
+        "weapon": null,
+        "armor": null,
+        "shield": null,
+        "helmet": null
+      }
+    }
+  ],
+  "current_level": 1,
+  "dungeon": [],
+  "in_combat": false,
+  "combat": null,
+  "messages": [],
+  "timestamp": "2025-05-23T13:37:30.978411"
+}

@@ -1,0 +1,168 @@
+{
+    "weapons": [
+        {
+            "name": "Dagger",
+            "type": "weapon",
+            "damage": "1d4",
+            "weight": 1,
+            "cost": 3,
+            "classes": ["Fighter", "Magic-User", "Thief", "Cleric", "Illusionist", "Bard"]
+        },
+        {
+            "name": "Short Sword",
+            "type": "weapon",
+            "damage": "1d6",
+            "weight": 3,
+            "cost": 7,
+            "classes": ["Fighter", "Magic-User", "Thief", "Bard"]
+        },
+        {
+            "name": "Long Sword",
+            "type": "weapon",
+            "damage": "1d8",
+            "weight": 4,
+            "cost": 15,
+            "classes": ["Fighter", "Paladin", "Ranger", "Bard"]
+        },
+        {
+            "name": "Battle Axe",
+            "type": "weapon",
+            "damage": "1d8",
+            "weight": 7,
+            "cost": 5,
+            "classes": ["Fighter", "Dwarf"]
+        },
+        {
+            "name": "Staff",
+            "type": "weapon",
+            "damage": "1d6",
+            "weight": 4,
+            "cost": 2,
+            "classes": ["Fighter", "Magic-User", "Cleric", "Druid", "Illusionist"]
+        },
+        {
+            "name": "Sling",
+            "type": "weapon",
+            "damage": "1d4",
+            "weight": 0.5,
+            "cost": 2,
+            "classes": ["Fighter", "Cleric", "Druid", "Bard"]
+        },
+        {
+            "name": "Short Bow",
+            "type": "weapon",
+            "damage": "1d6",
+            "weight": 2,
+            "cost": 25,
+            "classes": ["Fighter", "Ranger", "Bard"]
+        }
+    ],
+    "armor": [
+        {
+            "name": "Leather Armor",
+            "type": "armor",
+            "armor_class": 7,
+            "weight": 15,
+            "cost": 5,
+            "classes": ["Fighter", "Thief", "Ranger", "Bard"]
+        },
+        {
+            "name": "Chain Mail",
+            "type": "armor",
+            "armor_class": 5,
+            "weight": 40,
+            "cost": 75,
+            "classes": ["Fighter", "Paladin", "Ranger"]
+        },
+        {
+            "name": "Plate Mail",
+            "type": "armor",
+            "armor_class": 3,
+            "weight": 50,
+            "cost": 400,
+            "classes": ["Fighter", "Paladin"]
+        },
+        {
+            "name": "Padded Armor",
+            "type": "armor",
+            "armor_class": 8,
+            "weight": 10,
+            "cost": 4,
+            "classes": ["Fighter", "Thief", "Bard", "Illusionist"]
+        }
+    ],
+    "shields": [
+        {
+            "name": "Wooden Shield",
+            "type": "shield",
+            "armor_class_bonus": 1,
+            "weight": 5,
+            "cost": 3,
+            "classes": ["Fighter", "Paladin", "Ranger", "Cleric", "Druid"]
+        },
+        {
+            "name": "Metal Shield",
+            "type": "shield",
+            "armor_class_bonus": 1,
+            "weight": 10,
+            "cost": 10,
+            "classes": ["Fighter", "Paladin", "Ranger", "Cleric"]
+        }
+    ],
+    "potions": [
+        {
+            "name": "Potion of Healing",
+            "type": "potion",
+            "effect": "heal",
+            "value": "2d4+2",
+            "weight": 0.5,
+            "cost": 50
+        },
+        {
+            "name": "Potion of Extra Healing",
+            "type": "potion",
+            "effect": "heal",
+            "value": "3d4+3",
+            "weight": 0.5,
+            "cost": 100
+        },
+        {
+            "name": "Potion of Invisibility",
+            "type": "potion",
+            "effect": "invisibility",
+            "duration": "1d4+4 rounds",
+            "weight": 0.5,
+            "cost": 150
+        }
+    ],
+    "scrolls": [
+        {
+            "name": "Scroll of Protection from Evil",
+            "type": "scroll",
+            "spell_level": 1,
+            "weight": 0.1,
+            "cost": 100
+        },
+        {
+            "name": "Scroll of Cure Light Wounds",
+            "type": "scroll",
+            "spell_level": 1,
+            "weight": 0.1,
+            "cost": 100
+        },
+        {
+            "name": "Scroll of Invisibility",
+            "type": "scroll",
+            "spell_level": 2,
+            "weight": 0.1,
+            "cost": 200
+        },
+        {
+            "name": "Scroll of Speak with Animals",
+            "type": "scroll",
+            "spell_level": 1,
+            "weight": 0.1,
+            "cost": 100
+        }
+    ]
+} 

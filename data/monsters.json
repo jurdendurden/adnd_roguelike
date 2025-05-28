@@ -1,0 +1,876 @@
+{
+    "monsters": [
+        {
+            "name": "Goblin",
+            "type": "Humanoid",
+            "display_char": "g",
+            "color": "#4CAF50",
+            "hit_dice": "1d8",
+            "armor_class": 6,
+            "attacks": [
+                {
+                    "name": "Short Sword",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 14,
+                "Wands": 15,
+                "Paralysis": 16,
+                "Breath": 17,
+                "Spells": 17
+            },
+            "morale": 7,
+            "treasure_type": "C",
+            "xp": 15
+        },
+        {
+            "name": "Orc",
+            "type": "Humanoid",
+            "display_char": "O",
+            "color": "#795548",
+            "hit_dice": "1d8",
+            "armor_class": 6,
+            "attacks": [
+                {
+                    "name": "Battle Axe",
+                    "damage": "1d8"
+                }
+            ],
+            "saving_throws": {
+                "Death": 14,
+                "Wands": 15,
+                "Paralysis": 16,
+                "Breath": 17,
+                "Spells": 17
+            },
+            "morale": 8,
+            "treasure_type": "C",
+            "xp": 15
+        },
+        {
+            "name": "Skeleton",
+            "type": "Undead",
+            "display_char": "S",
+            "color": "#E0E0E0",
+            "hit_dice": "1d8",
+            "armor_class": 7,
+            "attacks": [
+                {
+                    "name": "Short Sword",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 14,
+                "Wands": 15,
+                "Paralysis": 16,
+                "Breath": 17,
+                "Spells": 17
+            },
+            "morale": 12,
+            "treasure_type": "U",
+            "xp": 20
+        },
+        {
+            "name": "Zombie",
+            "type": "Undead",
+            "display_char": "Z",
+            "color": "#8BC34A",
+            "hit_dice": "2d8",
+            "armor_class": 8,
+            "attacks": [
+                {
+                    "name": "Slam",
+                    "damage": "1d8"
+                }
+            ],
+            "saving_throws": {
+                "Death": 14,
+                "Wands": 15,
+                "Paralysis": 16,
+                "Breath": 17,
+                "Spells": 17
+            },
+            "morale": 12,
+            "treasure_type": "U",
+            "xp": 35
+        },
+        {
+            "name": "Ogre",
+            "type": "Giant",
+            "display_char": "G",
+            "color": "#FF9800",
+            "hit_dice": "4d8+1",
+            "armor_class": 5,
+            "attacks": [
+                {
+                    "name": "Club",
+                    "damage": "1d10"
+                }
+            ],
+            "saving_throws": {
+                "Death": 12,
+                "Wands": 13,
+                "Paralysis": 14,
+                "Breath": 15,
+                "Spells": 16
+            },
+            "morale": 9,
+            "treasure_type": "C",
+            "xp": 90
+        },
+        {
+            "name": "Red Dragon",
+            "type": "Dragon",
+            "display_char": "D",
+            "color": "#F44336",
+            "hit_dice": "8d8+8",
+            "armor_class": 2,
+            "attacks": [
+                {
+                    "name": "Bite",
+                    "damage": "2d8"
+                },
+                {
+                    "name": "Claw",
+                    "damage": "1d6"
+                },
+                {
+                    "name": "Tail",
+                    "damage": "1d8"
+                }
+            ],
+            "saving_throws": {
+                "Death": 6,
+                "Wands": 7,
+                "Paralysis": 8,
+                "Breath": 9,
+                "Spells": 10
+            },
+            "morale": 9,
+            "treasure_type": "H",
+            "xp": 1200
+        },
+        {
+            "name": "Balor",
+            "type": "Demon",
+            "display_char": "B",
+            "color": "#9C27B0",
+            "hit_dice": "8d8+8",
+            "armor_class": -2,
+            "attacks": [
+                {
+                    "name": "Sword",
+                    "damage": "2d8"
+                },
+                {
+                    "name": "Whip",
+                    "damage": "1d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 4,
+                "Wands": 5,
+                "Paralysis": 6,
+                "Breath": 7,
+                "Spells": 8
+            },
+            "morale": 12,
+            "treasure_type": "G",
+            "xp": 1500
+        },
+        {
+            "name": "Lich",
+            "type": "Undead",
+            "display_char": "L",
+            "color": "#00BCD4",
+            "hit_dice": "11d8",
+            "armor_class": 0,
+            "attacks": [
+                {
+                    "name": "Touch",
+                    "damage": "1d10"
+                }
+            ],
+            "saving_throws": {
+                "Death": 3,
+                "Wands": 4,
+                "Paralysis": 5,
+                "Breath": 6,
+                "Spells": 7
+            },
+            "morale": 12,
+            "treasure_type": "F",
+            "xp": 2000
+        },
+        {
+            "name": "Beholder",
+            "type": "Aberration",
+            "display_char": "b",
+            "color": "#FFEB3B",
+            "hit_dice": "10d8",
+            "armor_class": 0,
+            "attacks": [
+                {
+                    "name": "Eye Rays",
+                    "damage": "Special"
+                }
+            ],
+            "saving_throws": {
+                "Death": 4,
+                "Wands": 5,
+                "Paralysis": 6,
+                "Breath": 7,
+                "Spells": 8
+            },
+            "morale": 11,
+            "treasure_type": "H",
+            "xp": 1800
+        },
+        {
+            "name": "Mind Flayer",
+            "type": "Aberration",
+            "display_char": "M",
+            "color": "#9C27B0",
+            "hit_dice": "8d8",
+            "armor_class": 5,
+            "attacks": [
+                {
+                    "name": "Tentacles",
+                    "damage": "2d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 6,
+                "Wands": 7,
+                "Paralysis": 8,
+                "Breath": 9,
+                "Spells": 10
+            },
+            "morale": 10,
+            "treasure_type": "F",
+            "xp": 1200
+        },
+        {
+            "name": "Vampire",
+            "type": "Undead",
+            "display_char": "V",
+            "color": "#D32F2F",
+            "hit_dice": "8d8+3",
+            "armor_class": 2,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "1d4"
+                },
+                {
+                    "name": "Bite",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 4,
+                "Wands": 5,
+                "Paralysis": 6,
+                "Breath": 7,
+                "Spells": 8
+            },
+            "morale": 11,
+            "treasure_type": "F",
+            "xp": 1500
+        },
+        {
+            "name": "Mimic",
+            "type": "Shapechanger",
+            "display_char": "m",
+            "color": "#FFA000",
+            "hit_dice": "7d8",
+            "armor_class": 7,
+            "attacks": [
+                {
+                    "name": "Pseudopod",
+                    "damage": "3d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 6,
+                "Wands": 7,
+                "Paralysis": 8,
+                "Breath": 9,
+                "Spells": 10
+            },
+            "morale": 9,
+            "treasure_type": "C",
+            "xp": 900
+        },
+        {
+            "name": "Rust Monster",
+            "type": "Monster",
+            "display_char": "R",
+            "color": "#795548",
+            "hit_dice": "5d8",
+            "armor_class": 2,
+            "attacks": [
+                {
+                    "name": "Antennae",
+                    "damage": "Special"
+                }
+            ],
+            "saving_throws": {
+                "Death": 8,
+                "Wands": 9,
+                "Paralysis": 10,
+                "Breath": 11,
+                "Spells": 12
+            },
+            "morale": 7,
+            "treasure_type": "C",
+            "xp": 600
+        },
+        {
+            "name": "Displacer Beast",
+            "type": "Monster",
+            "display_char": "d",
+            "color": "#7B1FA2",
+            "hit_dice": "6d8",
+            "armor_class": 4,
+            "attacks": [
+                {
+                    "name": "Tentacle",
+                    "damage": "2d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 7,
+                "Wands": 8,
+                "Paralysis": 9,
+                "Breath": 10,
+                "Spells": 11
+            },
+            "morale": 9,
+            "treasure_type": "C",
+            "xp": 800
+        },
+        {
+            "name": "Gelatinous Cube",
+            "type": "Ooze",
+            "display_char": "c",
+            "color": "#4CAF50",
+            "hit_dice": "4d8",
+            "armor_class": 8,
+            "attacks": [
+                {
+                    "name": "Engulf",
+                    "damage": "2d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 10,
+                "Wands": 11,
+                "Paralysis": 12,
+                "Breath": 13,
+                "Spells": 14
+            },
+            "morale": 12,
+            "treasure_type": "Special",
+            "xp": 400
+        },
+        {
+            "name": "Succubus",
+            "type": "Demon",
+            "display_char": "s",
+            "color": "#E91E63",
+            "hit_dice": "6d8",
+            "armor_class": 0,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "1d3"
+                }
+            ],
+            "saving_throws": {
+                "Death": 6,
+                "Wands": 7,
+                "Paralysis": 8,
+                "Breath": 9,
+                "Spells": 10
+            },
+            "morale": 9,
+            "treasure_type": "D",
+            "xp": 800
+        },
+        {
+            "name": "Wraith",
+            "type": "Undead",
+            "display_char": "W",
+            "color": "#607D8B",
+            "hit_dice": "4d8",
+            "armor_class": 3,
+            "attacks": [
+                {
+                    "name": "Touch",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 8,
+                "Wands": 9,
+                "Paralysis": 10,
+                "Breath": 11,
+                "Spells": 12
+            },
+            "morale": 12,
+            "treasure_type": "E",
+            "xp": 500
+        },
+        {
+            "name": "Mummy",
+            "type": "Undead",
+            "display_char": "u",
+            "color": "#795548",
+            "hit_dice": "6d8",
+            "armor_class": 3,
+            "attacks": [
+                {
+                    "name": "Slam",
+                    "damage": "1d12"
+                }
+            ],
+            "saving_throws": {
+                "Death": 8,
+                "Wands": 9,
+                "Paralysis": 10,
+                "Breath": 11,
+                "Spells": 12
+            },
+            "morale": 12,
+            "treasure_type": "D",
+            "xp": 700
+        },
+        {
+            "name": "Chimera",
+            "type": "Monster",
+            "display_char": "C",
+            "color": "#FF5722",
+            "hit_dice": "9d8",
+            "armor_class": 4,
+            "attacks": [
+                {
+                    "name": "Bite",
+                    "damage": "2d4"
+                },
+                {
+                    "name": "Horns",
+                    "damage": "1d6"
+                },
+                {
+                    "name": "Claw",
+                    "damage": "1d3"
+                }
+            ],
+            "saving_throws": {
+                "Death": 7,
+                "Wands": 8,
+                "Paralysis": 9,
+                "Breath": 10,
+                "Spells": 11
+            },
+            "morale": 9,
+            "treasure_type": "D",
+            "xp": 1100
+        },
+        {
+            "name": "Gorgon",
+            "type": "Monster",
+            "display_char": "g",
+            "color": "#607D8B",
+            "hit_dice": "8d8",
+            "armor_class": 2,
+            "attacks": [
+                {
+                    "name": "Gore",
+                    "damage": "2d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 8,
+                "Wands": 9,
+                "Paralysis": 10,
+                "Breath": 11,
+                "Spells": 12
+            },
+            "morale": 9,
+            "treasure_type": "D",
+            "xp": 1000
+        },
+        {
+            "name": "Harpy",
+            "type": "Monster",
+            "display_char": "H",
+            "color": "#FFC107",
+            "hit_dice": "3d8",
+            "armor_class": 7,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "1d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 12,
+                "Wands": 13,
+                "Paralysis": 14,
+                "Breath": 15,
+                "Spells": 16
+            },
+            "morale": 7,
+            "treasure_type": "C",
+            "xp": 300
+        },
+        {
+            "name": "Medusa",
+            "type": "Monster",
+            "display_char": "e",
+            "color": "#4CAF50",
+            "hit_dice": "6d8",
+            "armor_class": 5,
+            "attacks": [
+                {
+                    "name": "Snake Hair",
+                    "damage": "1d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 10,
+                "Wands": 11,
+                "Paralysis": 12,
+                "Breath": 13,
+                "Spells": 14
+            },
+            "morale": 9,
+            "treasure_type": "F",
+            "xp": 700
+        },
+        {
+            "name": "Minotaur",
+            "type": "Monster",
+            "display_char": "n",
+            "color": "#795548",
+            "hit_dice": "6d8",
+            "armor_class": 6,
+            "attacks": [
+                {
+                    "name": "Horns",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 10,
+                "Wands": 11,
+                "Paralysis": 12,
+                "Breath": 13,
+                "Spells": 14
+            },
+            "morale": 11,
+            "treasure_type": "C",
+            "xp": 700
+        },
+        {
+            "name": "Pegasus",
+            "type": "Monster",
+            "display_char": "P",
+            "color": "#E1F5FE",
+            "hit_dice": "4d8",
+            "armor_class": 6,
+            "attacks": [
+                {
+                    "name": "Hooves",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 12,
+                "Wands": 13,
+                "Paralysis": 14,
+                "Breath": 15,
+                "Spells": 16
+            },
+            "morale": 8,
+            "treasure_type": "None",
+            "xp": 400
+        },
+        {
+            "name": "Peryton",
+            "type": "Monster",
+            "display_char": "p",
+            "color": "#4A148C",
+            "hit_dice": "4d8",
+            "armor_class": 5,
+            "attacks": [
+                {
+                    "name": "Gore",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 12,
+                "Wands": 13,
+                "Paralysis": 14,
+                "Breath": 15,
+                "Spells": 16
+            },
+            "morale": 9,
+            "treasure_type": "C",
+            "xp": 400
+        },
+        {
+            "name": "Roc",
+            "type": "Monster",
+            "display_char": "r",
+            "color": "#B71C1C",
+            "hit_dice": "18d8",
+            "armor_class": 4,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "2d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 4,
+                "Wands": 5,
+                "Paralysis": 6,
+                "Breath": 7,
+                "Spells": 8
+            },
+            "morale": 8,
+            "treasure_type": "C",
+            "xp": 2000
+        },
+        {
+            "name": "Sphinx",
+            "type": "Monster",
+            "display_char": "x",
+            "color": "#FFD700",
+            "hit_dice": "12d8",
+            "armor_class": 4,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "2d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 6,
+                "Wands": 7,
+                "Paralysis": 8,
+                "Breath": 9,
+                "Spells": 10
+            },
+            "morale": 10,
+            "treasure_type": "F",
+            "xp": 1500
+        },
+        {
+            "name": "Unicorn",
+            "type": "Monster",
+            "display_char": "U",
+            "color": "#FFFFFF",
+            "hit_dice": "4d8",
+            "armor_class": 2,
+            "attacks": [
+                {
+                    "name": "Horn",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 12,
+                "Wands": 13,
+                "Paralysis": 14,
+                "Breath": 15,
+                "Spells": 16
+            },
+            "morale": 7,
+            "treasure_type": "None",
+            "xp": 400
+        },
+        {
+            "name": "Wyvern",
+            "type": "Dragon",
+            "display_char": "w",
+            "color": "#388E3C",
+            "hit_dice": "7d8",
+            "armor_class": 3,
+            "attacks": [
+                {
+                    "name": "Bite",
+                    "damage": "2d8"
+                },
+                {
+                    "name": "Sting",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 9,
+                "Wands": 10,
+                "Paralysis": 11,
+                "Breath": 12,
+                "Spells": 13
+            },
+            "morale": 9,
+            "treasure_type": "E",
+            "xp": 900
+        },
+        {
+            "name": "Xorn",
+            "type": "Monster",
+            "display_char": "X",
+            "color": "#FF9800",
+            "hit_dice": "7d8",
+            "armor_class": -2,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "1d3"
+                }
+            ],
+            "saving_throws": {
+                "Death": 9,
+                "Wands": 10,
+                "Paralysis": 11,
+                "Breath": 12,
+                "Spells": 13
+            },
+            "morale": 11,
+            "treasure_type": "Special",
+            "xp": 900
+        },
+        {
+            "name": "Yeti",
+            "type": "Monster",
+            "display_char": "Y",
+            "color": "#ECEFF1",
+            "hit_dice": "4d8",
+            "armor_class": 6,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "1d6"
+                }
+            ],
+            "saving_throws": {
+                "Death": 12,
+                "Wands": 13,
+                "Paralysis": 14,
+                "Breath": 15,
+                "Spells": 16
+            },
+            "morale": 8,
+            "treasure_type": "C",
+            "xp": 400
+        },
+        {
+            "name": "Zombie, Juju",
+            "type": "Undead",
+            "display_char": "j",
+            "color": "#8BC34A",
+            "hit_dice": "3d8",
+            "armor_class": 6,
+            "attacks": [
+                {
+                    "name": "Slam",
+                    "damage": "1d8"
+                }
+            ],
+            "saving_throws": {
+                "Death": 12,
+                "Wands": 13,
+                "Paralysis": 14,
+                "Breath": 15,
+                "Spells": 16
+            },
+            "morale": 12,
+            "treasure_type": "U",
+            "xp": 300
+        },
+        {
+            "name": "Vargouille",
+            "type": "Monster",
+            "display_char": "v",
+            "color": "#9E9E9E",
+            "hit_dice": "2d8",
+            "armor_class": 7,
+            "attacks": [
+                {
+                    "name": "Bite",
+                    "damage": "1d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 14,
+                "Wands": 15,
+                "Paralysis": 16,
+                "Breath": 17,
+                "Spells": 17
+            },
+            "morale": 9,
+            "treasure_type": "None",
+            "xp": 200
+        },
+        {
+            "name": "Umber Hulk",
+            "type": "Monster",
+            "display_char": "h",
+            "color": "#795548",
+            "hit_dice": "8d8",
+            "armor_class": 2,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "2d4"
+                }
+            ],
+            "saving_throws": {
+                "Death": 8,
+                "Wands": 9,
+                "Paralysis": 10,
+                "Breath": 11,
+                "Spells": 12
+            },
+            "morale": 9,
+            "treasure_type": "D",
+            "xp": 1000
+        },
+        {
+            "name": "Troll",
+            "type": "Monster",
+            "display_char": "T",
+            "color": "#4CAF50",
+            "hit_dice": "6d8",
+            "armor_class": 4,
+            "attacks": [
+                {
+                    "name": "Claw",
+                    "damage": "1d4"
+                },
+                {
+                    "name": "Bite",
+                    "damage": "1d8"
+                }
+            ],
+            "saving_throws": {
+                "Death": 10,
+                "Wands": 11,
+                "Paralysis": 12,
+                "Breath": 13,
+                "Spells": 14
+            },
+            "morale": 9,
+            "treasure_type": "C",
+            "xp": 700
+        }
+    ]
+} 
